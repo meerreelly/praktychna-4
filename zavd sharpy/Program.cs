@@ -51,14 +51,14 @@ for(int i = 1; i <11; i++)
 
 //Задача 5.8.
 //Написати програму, що обчислює суму цифр введено числа.
-/*string temp = Console.ReadLine();   
-int sum=0;
+string temp = Console.ReadLine();   
+double sum=0;
 for(int i = 0; i < temp.Length; i++)
 {
-    sum+=Convert.ToInt32(new string(temp[i], 1));
+    sum+=char.GetNumericValue(temp[i]);
     
 }
-Console.WriteLine(sum);*/
+Console.WriteLine(sum);
 
 
 
@@ -77,7 +77,7 @@ for(int i = temp.Length-1; i>=0 ; i--)
     if(i%2!=0&&i%3==0&&i%5!=0)Console.Write(i+"\t");
 } */
 //Задача 5.11
-while (true)
+/*while (true)
 {
     Console.WriteLine("----Меню----\n[+]-Додати\n[-]-Відняти\n[*]-Помножити\n[/]-Ділити\n[0]-Вихід\n");
     string temp=Console.ReadLine();
@@ -116,4 +116,4 @@ while (true)
             default:
             break;
     }
-}
+}*/
