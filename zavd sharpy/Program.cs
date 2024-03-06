@@ -1,8 +1,8 @@
 ﻿using System.Text;
 Console.OutputEncoding = Encoding.UTF8;
 //Задача 5.3X1
-//Random rand = new Random(2);
-/*for (int i = 0; i < 9; i++)
+/*Random rand = new Random(2);
+for (int i = 0; i < 9; i++)
 {
     int number=rand.Next(1, 9);
     if (number %2 == 0)
@@ -13,8 +13,6 @@ Console.OutputEncoding = Encoding.UTF8;
         Console.Write($"0({number})\t");
     }
 }*/
-
-
 
 //Задача 5.5
 /*int number =int.Parse(Console.ReadLine());
@@ -47,20 +45,15 @@ for(int i = 1; i <11; i++)
             }
 }*/
 
-
-
 //Задача 5.8.
-//Написати програму, що обчислює суму цифр введено числа.
-string temp = Console.ReadLine();   
+/*string temp = Console.ReadLine();   
 double sum=0;
 for(int i = 0; i < temp.Length; i++)
 {
     sum+=char.GetNumericValue(temp[i]);
     
 }
-Console.WriteLine(sum);
-
-
+Console.WriteLine(sum);*/
 
 //Задача 5.9.
 /*string temp = Console.ReadLine();   
@@ -76,6 +69,7 @@ for(int i = temp.Length-1; i>=0 ; i--)
 {
     if(i%2!=0&&i%3==0&&i%5!=0)Console.Write(i+"\t");
 } */
+
 //Задача 5.11
 /*while (true)
 {
